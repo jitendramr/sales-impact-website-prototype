@@ -1,0 +1,93 @@
+/*
+Author	> REDTRAY
+Version	> 1 [last updated: 11.10.2008]
+Note	> This style is for the home page
+*/
+
+/* --------------------------------------------------- */
+/*     P A G E  S T R U C T U R E  &  L A Y O U T      */
+/* --------------------------------------------------- */
+
+body{text-align:center;margin:auto}
+#pitch{width:960px;height:578px;margin:auto}
+#top-most-bar{width:100%;height:25px;float:left}
+#header{width:100%;height:75px;float:left}
+#nav{width:889px;height:36px;float:left}
+#content{width:889px;height:403px;float:left}
+#content-top{width:877px;height:335px;float:left}
+#content-bottom{width:889px;height:57px;float:left}
+
+/* 5 content layers */
+
+#layer1{width:877px;height:335px;float:left}
+#layer2{width:877px;height:335px;float:left}
+#layer3{width:877px;height:335px;float:left}
+#layer4{width:877px;height:335px;float:left}
+#layer5{width:877px;height:335px;float:left}
+
+/* --------------------------------------------------- */
+/*          P A G E  P R E S E N T A T I O N           */
+/* --------------------------------------------------- */
+
+body{background-color:#eef9fe;background-image:url(../images/bg_main.gif);background-repeat:repeat-x;font-size:100%}
+#pitch{background-color:#e3f7fe;background-image:url(../images/bg_pitch.jpg);background-repeat:no-repeat;text-align:left;margin-top:35px}
+img{border:0px;}
+br.tiny{font-size:1px}
+br.big{font-size:20px}
+a{color:#044573;text-decoration:none;font-weight:bold}
+a:hover{color:#044573;text-decoration:underline;font-weight:bold}
+
+#top-most-bar{color:#b9def2;font-family:"Trebuchet MS", verdana;font-size:60%;text-align:right;}
+#top-most-bar a{color:#b9def2;text-decoration:none}
+#top-most-bar a:hover{color:#b9def2;text-decoration:underline}
+#top-most-bar top-most-bar-delimiter{font-size:70%}
+#top-most-bar p{margin-top:5px;margin-right:14px;margin-left:14px}
+
+#header{padding-left:46px;font-family:"Trebuchet MS", verdana;font-weight:normal;color:#fff;font-size:105%}
+#header-phone-number{padding-left:30px}
+
+#nav{background-color:#eae6b9;margin-left:35px;_margin-left:21px;background-image:url(../images/bg_nav.gif);background-repeat:repeat-x;}
+#nav-menu{width:98%;height:36px;font-family:"Trebuchet MS", arial;color:#00294f;font-size:80%;font-weight:bold}
+#nav-menu td{}
+#nav #current-menuitem1{background-image:url(../images/nav_item_hover1.gif);background-repeat:no-repeat}
+#nav #current-menuitem2{background-image:url(../images/nav_item_hover2.gif);background-repeat:no-repeat}
+#nav #current-menuitem3{background-image:url(../images/nav_item_hover3.gif);background-repeat:no-repeat}
+#nav #current-menuitem4{background-image:url(../images/nav_item_hover4.gif);background-repeat:no-repeat}
+#nav #current-menuitem5{background-image:url(../images/nav_item_hover5.gif);background-repeat:no-repeat}
+#nav #current-menuitem6{background-image:url(../images/nav_item_hover6.gif);background-repeat:no-repeat}
+#nav #current-menuitem7{background-image:url(../images/nav_item_hover7.gif);background-repeat:no-repeat}
+#nav #current-menuitem8{background-image:url(../images/nav_item_hover8.gif);background-repeat:no-repeat}
+#nav .menuitem{background-image:url(../images/transparent.gif);background-repeat:no-repeat}
+
+#nav .menuitem a{color:#00294f;text-decoration:none}
+#nav .menuitem a:hover{color:#00294f;text-decoration:none;}
+
+#content{background-color:transparent;margin-left:35px;_margin-left:21px;background-image:url(../images/bg_content.jpg);background-repeat:no-repeat}
+#content-top{margin-left:6px;_margin-left:4px;background-image:url(../images/collage1.jpg);background-repeat:no-repeat}
+#content-top p{padding-left:40px;padding-top:30px;font-family:verdana;font-size:75%;color:#044573;width:370px;_width:410px}
+#content-bottom{text-align:center}
+
+#footer{font-family:arial;color:#757a7d}
+#footer a{color:#757a7d;font-size:70%;font-weight:bold;text-decoration:none}
+#footer a:hover{color:#757a7d;font-size:70%;font-weight:bold;text-decoration:underline}
+#footer .footer-delimiter{font-size:70%}
+#footer-line0{height:8px}
+#footer-line1{}
+#footer-line2{font-size:60%;height:20px}
+
+/* 5 content layers */
+
+#layer1{z-index:5;position:absolute;top:191px;left:206px;background-color:#eefbff;background-image:url(../images/collage2.jpg);display:none;font-family:verdana;font-size:80%;color:#044573;text-align:left;}
+#layer2{z-index:6;position:absolute;top:191px;left:206px;background-color:#eefbff;background-image:url(../images/collage3.jpg);display:none;font-family:verdana;font-size:80%;color:#044573;text-align:left;}
+#layer3{z-index:7;position:absolute;top:191px;left:206px;background-color:#eefbff;background-image:url(../images/collage4.jpg);display:none;font-family:verdana;font-size:80%;color:#044573;text-align:left;}
+#layer4{z-index:8;position:absolute;top:191px;left:206px;background-color:#eefbff;background-image:url(../images/collage5.jpg);display:none;font-family:verdana;font-size:80%;color:#044573;text-align:left;}
+#layer5{z-index:9;position:absolute;top:191px;left:206px;background-color:#eefbff;background-image:url(../images/collage6.jpg);display:none;font-family:verdana;font-size:80%;color:#044573;text-align:left;}
+
+#layer1 p, #layer2 p, #layer3 p, #layer4 p, #layer5 p{width:400px;margin-top:47px;padding-left:40px}
+#layer1 li, #layer2 li, #layer3 li, #layer4 li, #layer5 li{width:360px;margin-left:15px;font-size:85%;font-weight:bold;color:#6589a2;vertical-align:top;position:relative;top:-.2em;}
+
+/*
+filter: alpha(opacity=95); -moz-opacity: 95; opacity: .95;
+filter:Blur(Direction=360, Strength=80)
+filter:blendTrans(duration=.15)
+*/

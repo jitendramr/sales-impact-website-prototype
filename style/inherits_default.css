@@ -1,0 +1,25 @@
+div{
+cborder:#FF00FF solid 1px;
+}
+#header{
+width:914px;margin:auto;
+
+}
+#pitch{
+height:auto;
+overflow:auto;
+background-image:none;
+}
+#content{
+background-image:none;
+height:auto;
+overflow:auto;
+}
+#content-top{
+background-image:none;
+height:60px;
+}
+#content-bottom{
+background-image:none;
+height:60px;
+}
